@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+}
+.biggerbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+}
+h2{
+    font-family: 'Source Code Pro', monospace;
+}
+h3{
+    font-family: 'Source Code Pro', monospace;
+}
+input{
+    font-family: 'Source Code Pro', monospace;
+}
+label{
+    font-family: 'Source Code Pro', monospace;
+}
